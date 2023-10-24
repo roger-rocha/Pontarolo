@@ -73,6 +73,9 @@ const modules = {
   stockLocationService: {
     resolve: "@medusajs/stock-location",
   },
+  featureFlags: {
+    product_categories: true,
+  }
 };
 
 /** @type {import('@medusajs/medusa').ConfigModule["projectConfig"]} */
